@@ -1,0 +1,34 @@
+name: my_flutter_app 
+description: "A custom Flutter project."  
+
+publish_to: 'none' 
+
+version: 1.0.0+1  
+
+environment:
+  sdk: ^3.5.2 
+
+dependencies:
+  flutter:
+    sdk: flutter
+  local_auth: ^2.1.5
+
+  cupertino_icons: ^1.0.8  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0  
+
+flutter:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+  assets:
+    - assets/blue.jpg 
+    - assets/clock.jpg
+                       
+  uses-material-design: true 
+
